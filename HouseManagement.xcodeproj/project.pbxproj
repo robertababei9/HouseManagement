@@ -3,25 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C19800AED063ABB4B6C388 /* Pods_HouseManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E04CAA92077E34ADED9800E /* Pods_HouseManagement.framework */; };
+		DD22DFEB2327A8C700749031 /* AllPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFEA2327A8C700749031 /* AllPeopleViewController.swift */; };
+		DD22DFEF2327B38A00749031 /* AllPeopleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFED2327B38A00749031 /* AllPeopleTableCell.swift */; };
+		DD22DFF02327B38A00749031 /* AllPeopleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD22DFEE2327B38A00749031 /* AllPeopleTableCell.xib */; };
+		DD22DFF22327CCC000749031 /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFF12327CCC000749031 /* PeopleDetailViewController.swift */; };
+		DD22DFF52328075000749031 /* PeopleDetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFF32328075000749031 /* PeopleDetailTableCell.swift */; };
+		DD22DFF62328075000749031 /* PeopleDetailTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD22DFF42328075000749031 /* PeopleDetailTableCell.xib */; };
+		DD22DFFB2328088000749031 /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFFA2328088000749031 /* FirebaseAPI.swift */; };
+		DD22DFFF2328F98500749031 /* Array+RemoveWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22DFFE2328F98500749031 /* Array+RemoveWork.swift */; };
+		DD22E0012329157B00749031 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E0002329157B00749031 /* User.swift */; };
+		DD22E0032329214D00749031 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E0022329214D00749031 /* StatisticsViewController.swift */; };
+		DD22E007232A291800749031 /* StatisticsPerTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E006232A291800749031 /* StatisticsPerTotal.swift */; };
+		DD22E009232A403900749031 /* String+RemoveEmailSufix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E008232A403900749031 /* String+RemoveEmailSufix.swift */; };
 		DD83DBAB23151E36005DDDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBAA23151E36005DDDA4 /* AppDelegate.swift */; };
-		DD83DBAD23151E36005DDDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBAC23151E36005DDDA4 /* ViewController.swift */; };
 		DD83DBB023151E36005DDDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83DBAE23151E36005DDDA4 /* Main.storyboard */; };
 		DD83DBB223151E37005DDDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD83DBB123151E37005DDDA4 /* Assets.xcassets */; };
 		DD83DBB523151E37005DDDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83DBB323151E37005DDDA4 /* LaunchScreen.storyboard */; };
+		DD83DBBD23152010005DDDA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBBC23152010005DDDA4 /* LoginViewController.swift */; };
+		DD83DBC023152111005DDDA4 /* CustomizedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBBF23152111005DDDA4 /* CustomizedUI.swift */; };
+		DD83DBD8231541FE005DDDA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD83DBD7231541FE005DDDA4 /* GoogleService-Info.plist */; };
+		DD83DBE0231560BB005DDDA4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBDF231560BB005DDDA4 /* NewsViewController.swift */; };
+		DD83DBE223158E56005DDDA4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBE123158E56005DDDA4 /* DetailViewController.swift */; };
+		DD83DBE72315CFCF005DDDA4 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBE62315CFCF005DDDA4 /* Work.swift */; };
+		DD83DBEC2316F731005DDDA4 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DBEA2316F731005DDDA4 /* NewsTableViewCell.swift */; };
+		DD83DBED2316F731005DDDA4 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD83DBEB2316F731005DDDA4 /* NewsTableViewCell.xib */; };
+		DD83DC3023191828005DDDA4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DC2F23191828005DDDA4 /* ProfileViewController.swift */; };
+		DD83DC3323193096005DDDA4 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83DC3123193096005DDDA4 /* ProfileCollectionViewCell.swift */; };
+		DD83DC3423193096005DDDA4 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD83DC3223193096005DDDA4 /* ProfileCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422E095AA9F7FCF17CEBFDAA /* Pods-HouseManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseManagement.debug.xcconfig"; path = "Target Support Files/Pods-HouseManagement/Pods-HouseManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		5E04CAA92077E34ADED9800E /* Pods_HouseManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765F987D667FDE1A2A45EF84 /* Pods-HouseManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseManagement.release.xcconfig"; path = "Target Support Files/Pods-HouseManagement/Pods-HouseManagement.release.xcconfig"; sourceTree = "<group>"; };
+		DD22DFEA2327A8C700749031 /* AllPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPeopleViewController.swift; sourceTree = "<group>"; };
+		DD22DFED2327B38A00749031 /* AllPeopleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPeopleTableCell.swift; sourceTree = "<group>"; };
+		DD22DFEE2327B38A00749031 /* AllPeopleTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllPeopleTableCell.xib; sourceTree = "<group>"; };
+		DD22DFF12327CCC000749031 /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
+		DD22DFF32328075000749031 /* PeopleDetailTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailTableCell.swift; sourceTree = "<group>"; };
+		DD22DFF42328075000749031 /* PeopleDetailTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleDetailTableCell.xib; sourceTree = "<group>"; };
+		DD22DFFA2328088000749031 /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
+		DD22DFFE2328F98500749031 /* Array+RemoveWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RemoveWork.swift"; sourceTree = "<group>"; };
+		DD22E0002329157B00749031 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD22E0022329214D00749031 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		DD22E006232A291800749031 /* StatisticsPerTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsPerTotal.swift; sourceTree = "<group>"; };
+		DD22E008232A403900749031 /* String+RemoveEmailSufix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RemoveEmailSufix.swift"; sourceTree = "<group>"; };
 		DD83DBA723151E36005DDDA4 /* HouseManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD83DBAA23151E36005DDDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD83DBAC23151E36005DDDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD83DBAF23151E36005DDDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD83DBB123151E37005DDDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD83DBB423151E37005DDDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD83DBB623151E37005DDDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD83DBBC23152010005DDDA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD83DBBF23152111005DDDA4 /* CustomizedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedUI.swift; sourceTree = "<group>"; };
+		DD83DBD7231541FE005DDDA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD83DBDF231560BB005DDDA4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		DD83DBE123158E56005DDDA4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DD83DBE62315CFCF005DDDA4 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		DD83DBEA2316F731005DDDA4 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		DD83DBEB2316F731005DDDA4 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		DD83DC2F23191828005DDDA4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD83DC3123193096005DDDA4 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		DD83DC3223193096005DDDA4 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C19800AED063ABB4B6C388 /* Pods_HouseManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63B06293EEAE3B38303063EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E04CAA92077E34ADED9800E /* Pods_HouseManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD22DFEC2327B33E00749031 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				DD83DBEA2316F731005DDDA4 /* NewsTableViewCell.swift */,
+				DD83DBEB2316F731005DDDA4 /* NewsTableViewCell.xib */,
+				DD83DC3123193096005DDDA4 /* ProfileCollectionViewCell.swift */,
+				DD83DC3223193096005DDDA4 /* ProfileCollectionViewCell.xib */,
+				DD22DFED2327B38A00749031 /* AllPeopleTableCell.swift */,
+				DD22DFEE2327B38A00749031 /* AllPeopleTableCell.xib */,
+				DD22DFF32328075000749031 /* PeopleDetailTableCell.swift */,
+				DD22DFF42328075000749031 /* PeopleDetailTableCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+		DD22DFF72328082500749031 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD22DFFA2328088000749031 /* FirebaseAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD22DFFD2328F96300749031 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DD22DFFE2328F98500749031 /* Array+RemoveWork.swift */,
+				DD22E008232A403900749031 /* String+RemoveEmailSufix.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		DD83DB9E23151E36005DDDA4 = {
 			isa = PBXGroup;
 			children = (
 				DD83DBA923151E36005DDDA4 /* HouseManagement */,
+				DD83DBAA23151E36005DDDA4 /* AppDelegate.swift */,
+				DD83DBAE23151E36005DDDA4 /* Main.storyboard */,
+				DD83DBB123151E37005DDDA4 /* Assets.xcassets */,
+				DD83DBB323151E37005DDDA4 /* LaunchScreen.storyboard */,
+				DD83DBD7231541FE005DDDA4 /* GoogleService-Info.plist */,
+				DD83DBB623151E37005DDDA4 /* Info.plist */,
 				DD83DBA823151E36005DDDA4 /* Products */,
+				EE91BD85C619BE99E9F06AA0 /* Pods */,
+				63B06293EEAE3B38303063EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +151,55 @@
 		DD83DBA923151E36005DDDA4 /* HouseManagement */ = {
 			isa = PBXGroup;
 			children = (
-				DD83DBAA23151E36005DDDA4 /* AppDelegate.swift */,
-				DD83DBAC23151E36005DDDA4 /* ViewController.swift */,
-				DD83DBAE23151E36005DDDA4 /* Main.storyboard */,
-				DD83DBB123151E37005DDDA4 /* Assets.xcassets */,
-				DD83DBB323151E37005DDDA4 /* LaunchScreen.storyboard */,
-				DD83DBB623151E37005DDDA4 /* Info.plist */,
+				DD22DFFD2328F96300749031 /* Helper */,
+				DD83DBE52315CFA7005DDDA4 /* Model */,
+				DD83DBBE231520B5005DDDA4 /* View */,
+				DD83DBC1231522CA005DDDA4 /* Controllers */,
+				DD22DFF72328082500749031 /* Network */,
 			);
 			path = HouseManagement;
+			sourceTree = "<group>";
+		};
+		DD83DBBE231520B5005DDDA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD83DBBF23152111005DDDA4 /* CustomizedUI.swift */,
+				DD22DFEC2327B33E00749031 /* CellView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD83DBC1231522CA005DDDA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD83DBBC23152010005DDDA4 /* LoginViewController.swift */,
+				DD83DBDF231560BB005DDDA4 /* NewsViewController.swift */,
+				DD83DBE123158E56005DDDA4 /* DetailViewController.swift */,
+				DD22DFEA2327A8C700749031 /* AllPeopleViewController.swift */,
+				DD22DFF12327CCC000749031 /* PeopleDetailViewController.swift */,
+				DD22E0022329214D00749031 /* StatisticsViewController.swift */,
+				DD83DC2F23191828005DDDA4 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD83DBE52315CFA7005DDDA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD83DBE62315CFCF005DDDA4 /* Work.swift */,
+				DD22E0002329157B00749031 /* User.swift */,
+				DD22E006232A291800749031 /* StatisticsPerTotal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE91BD85C619BE99E9F06AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				422E095AA9F7FCF17CEBFDAA /* Pods-HouseManagement.debug.xcconfig */,
+				765F987D667FDE1A2A45EF84 /* Pods-HouseManagement.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD83DBB923151E37005DDDA4 /* Build configuration list for PBXNativeTarget "HouseManagement" */;
 			buildPhases = (
+				01A6C49F5E5F625EC1191F24 /* [CP] Check Pods Manifest.lock */,
 				DD83DBA323151E36005DDDA4 /* Sources */,
 				DD83DBA423151E36005DDDA4 /* Frameworks */,
 				DD83DBA523151E36005DDDA4 /* Resources */,
+				5601C11751365AB07681C6FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +263,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD83DBB523151E37005DDDA4 /* LaunchScreen.storyboard in Resources */,
+				DD22DFF02327B38A00749031 /* AllPeopleTableCell.xib in Resources */,
+				DD83DBD8231541FE005DDDA4 /* GoogleService-Info.plist in Resources */,
+				DD83DC3423193096005DDDA4 /* ProfileCollectionViewCell.xib in Resources */,
 				DD83DBB223151E37005DDDA4 /* Assets.xcassets in Resources */,
 				DD83DBB023151E36005DDDA4 /* Main.storyboard in Resources */,
+				DD22DFF62328075000749031 /* PeopleDetailTableCell.xib in Resources */,
+				DD83DBED2316F731005DDDA4 /* NewsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A6C49F5E5F625EC1191F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5601C11751365AB07681C6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseManagement/Pods-HouseManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseManagement/Pods-HouseManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HouseManagement/Pods-HouseManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD83DBA323151E36005DDDA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD83DBAD23151E36005DDDA4 /* ViewController.swift in Sources */,
+				DD83DBE72315CFCF005DDDA4 /* Work.swift in Sources */,
+				DD22DFFF2328F98500749031 /* Array+RemoveWork.swift in Sources */,
+				DD22DFEB2327A8C700749031 /* AllPeopleViewController.swift in Sources */,
+				DD22DFF52328075000749031 /* PeopleDetailTableCell.swift in Sources */,
+				DD22E0012329157B00749031 /* User.swift in Sources */,
+				DD83DBBD23152010005DDDA4 /* LoginViewController.swift in Sources */,
+				DD83DBEC2316F731005DDDA4 /* NewsTableViewCell.swift in Sources */,
+				DD22E0032329214D00749031 /* StatisticsViewController.swift in Sources */,
+				DD22DFF22327CCC000749031 /* PeopleDetailViewController.swift in Sources */,
+				DD22E009232A403900749031 /* String+RemoveEmailSufix.swift in Sources */,
+				DD22E007232A291800749031 /* StatisticsPerTotal.swift in Sources */,
+				DD83DC3323193096005DDDA4 /* ProfileCollectionViewCell.swift in Sources */,
 				DD83DBAB23151E36005DDDA4 /* AppDelegate.swift in Sources */,
+				DD83DBE0231560BB005DDDA4 /* NewsViewController.swift in Sources */,
+				DD83DC3023191828005DDDA4 /* ProfileViewController.swift in Sources */,
+				DD83DBC023152111005DDDA4 /* CustomizedUI.swift in Sources */,
+				DD83DBE223158E56005DDDA4 /* DetailViewController.swift in Sources */,
+				DD22DFEF2327B38A00749031 /* AllPeopleTableCell.swift in Sources */,
+				DD22DFFB2328088000749031 /* FirebaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +484,12 @@
 		};
 		DD83DBBA23151E37005DDDA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422E095AA9F7FCF17CEBFDAA /* Pods-HouseManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HouseManagement/Info.plist;
+				DEVELOPMENT_TEAM = BTFUCZRXWP;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +503,12 @@
 		};
 		DD83DBBB23151E37005DDDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765F987D667FDE1A2A45EF84 /* Pods-HouseManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HouseManagement/Info.plist;
+				DEVELOPMENT_TEAM = BTFUCZRXWP;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
